@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("./assets/bg_main.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-image: radial-gradient(circle, #6f53dc, #5b40be, #472fa0, #331d83, #1e0c68); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}

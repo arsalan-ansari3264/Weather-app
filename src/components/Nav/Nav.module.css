@@ -1,0 +1,30 @@
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menu,
+.search {
+    font-size: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.searchBar input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid #eee;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.searchBar input:focus {
+    border-color: #1900ff;
+}
