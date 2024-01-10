@@ -1,8 +1,8 @@
-
 nav {
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 
@@ -11,6 +11,15 @@ nav {
     font-size: 30px;
     margin-top: 5px;
     cursor: pointer;
+    width: 10%;
+}
+
+.searchBar {
+    width:80%;
+    @media (max-width: 425px) {
+        width: 60%;
+     
+     }
 }
 
 .searchBar input {
@@ -23,8 +32,11 @@ nav {
     color: white;
     font-size: 20px;
     text-align: center;
+    width: 90%;
+    margin-left: 15px;
 }
 
 .searchBar input:focus {
     border-color: #1900ff;
+    background-color: transparent;
 }

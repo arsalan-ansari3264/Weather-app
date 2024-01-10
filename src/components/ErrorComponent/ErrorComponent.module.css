@@ -1,0 +1,10 @@
+.error_container{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    font-size: 40px;
+}
+img{
+    height: 220px;
+}
